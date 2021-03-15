@@ -8,28 +8,28 @@ body{
   padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1440 - 320)));
 } */
 .flask{
-  position: relative;
-  width: 25vw;
-  height: 48vw;
-  left: 209px;
-  top: 1px;
+  position: absolute;
+  width: 24.5vw;
+  left: 202px;
+  top: 117px;
 }
 .rectangle{
   position: absolute;
-  width: 26px;
-  height: 470px;
+  width: 1.8vw;
+  height: 47vw;
   left: 222px;
-  top: 113px;
+  /* top: 113px; */
   background: #DADADC;
   border: 0.5px solid #000000;
   border-radius: 13px;
 }
 .rectangle1{
-  position: relative;
+  position: absolute;
   width: 25vw;
-  height: 20vw;
-  left: 195px;
-  top: 635px;
+  height: 16vw;
+  left: 196px;
+  /* top: 635px; */
+  top: 43vw;
   background: #000000;
   border-radius: 24px;
 }
@@ -151,7 +151,7 @@ body{
   left: 818px;
   top: 499px;
 }
-a.rollover{
+/* a.rollover{
   background: url('file:///Users/evakogut/Desktop/3%20modul/img/hand.svg');
   display: block;
   width:308px ;
@@ -164,19 +164,18 @@ a.rollover{
 }
 a.rollover:hover {
     background: url('file:///Users/evakogut/Desktop/3%20modul/img/hand2.svg');
-}
-/* .hand{
-  position: absolute;
-  width: 308px;
-  height: 365px;
-  left: 839px;
-  top: 506px;
 } */
+.hand{
+  position: absolute;
+  width: 21.8vw;
+  /* height: 365px; */
+  right: 290px;
+  top: 506px;
+}
 .cup{
   position: absolute;
-  width: 263px;
-  height: 285px;
-  left: 617px;
+  width: 20vw;
+  right: 570px;
   top: 463px;
 }
 .rectangle6{
@@ -422,17 +421,30 @@ a.rollover:hover {
 }
 .flask2{
   position: absolute;
-  width: 412px;
+  width: 29.2vw;
+  right: 128px;
+  top: 111px;
+  /* width: 412px;
   height: 359px;
   left: 896px;
-  top: 111px;
+  top: 111px; */
 }
 .compound2{
-  /* position: absolute; */
-  width: 3vw;
-  height: 15vw;
-  /* left: 100px;
-  top: 8vw; */
+  position: absolute;
+  width: 40px;
+  height: 39px;
+  left: 1082px;
+  top: 74px;
+}
+.rectangle15{
+  position: absolute;
+  width: 95px;
+  height: 89px;
+  left: 1054px;
+  top: 144px;
+  background: #8D9FCC;
+  border: 0.5px solid black;
+  border-radius: 17px;
 }
 
 
